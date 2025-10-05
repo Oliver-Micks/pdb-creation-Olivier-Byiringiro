@@ -44,7 +44,7 @@ OEM dashboard view **(Task 3)**
 
 > Both HTTP/HTTPS port were not set.
 
-> solved it by setting the port (for HTTPS) 5001.
+> solved it by setting the port (for HTTPS) 5501.
 
 > **command : {EXEC DBMS_XDB_CONFIG.SETHTTPSPORT(5501);}**
 
