@@ -39,18 +39,18 @@ OEM dashboard view **(Task 3)**
 
 > I later figured out that it was open (in read-write mode).
 
-> I closed it (mounted) **ALTER PLUGGABLE DATABASE OL_TO_DELETE_PDB_27119 CLOSE IMMEDIATE;** then dropped it.
+> I closed it (mounted) **command : {ALTER PLUGGABLE DATABASE OL_TO_DELETE_PDB_27119 CLOSE IMMEDIATE;}** then dropped it.
 
 
 > Both HTTP/HTTPS port were not set.
 
 > solved it by setting the port (for HTTPS) 5001.
 
-> **EXEC DBMS_XDB_CONFIG.SETHTTPSPORT(5501);**
+> **command : {EXEC DBMS_XDB_CONFIG.SETHTTPSPORT(5501);}**
 
 
-============================================================================
+================================================================
 
 #   END OF TASKS
 
-============================================================================
+================================================================
